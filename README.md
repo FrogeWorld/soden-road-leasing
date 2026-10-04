@@ -2,6 +2,8 @@
 
 Static, dependency-free leasing site for 33 Soden Road, Bangholme VIC 3175.
 
+The site has a clear "Photos coming soon" section while retaining the verified March 2020 Google Street View frontage. A tenant checklist covers dimensions, access, service capacity, commercial terms and approvals to confirm with Tina before leasing; no unprovided figures are published.
+
 ## Preview
 
 From this directory run `node serve.mjs`, then open `http://localhost:8088`.
@@ -31,4 +33,3 @@ From this directory run `node serve.mjs`, then open `http://localhost:8088`.
 - [Greater Dandenong planning permit application](https://www.greaterdandenong.vic.gov.au/planning/apply-planning-permit) and [application process](https://www.greaterdandenong.vic.gov.au/planning/planning-permit-application-process).
 
 This is a tenant screening guide, not site-specific planning advice or a promise that any use will be approved.
-
