@@ -6,6 +6,7 @@ const files = {
   '/index.html': ['index.html', 'text/html; charset=utf-8'],
   '/styles.css': ['styles.css', 'text/css; charset=utf-8'],
   '/script.js': ['script.js', 'text/javascript; charset=utf-8'],
+  '/favicon.svg': ['favicon.svg', 'image/svg+xml'],
 };
 
 const port = Number(process.env.PORT || 8088);
@@ -21,4 +22,3 @@ createServer(async (request, response) => {
   response.writeHead(200, { 'Content-Type': contentType });
   response.end(body);
 }).listen(port, () => console.log(`Preview at http://localhost:${port}`));
-
